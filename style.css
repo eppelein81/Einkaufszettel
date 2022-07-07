@@ -1,0 +1,46 @@
+body {    
+    font-family: Calibri;
+    padding-left: 35vw;
+}
+.card {  
+    width: 30vw;    
+    padding: 8px;    
+    box-shadow: 2px 2px 2px 2px rgb( 0 0 0 / 14%);
+    margin-top: 8px;    
+}
+input {
+    background-color: white;
+    color: #0000ff;
+    padding: 8px;        
+    border: 2px solid black;
+    transition: all 125ms ease-in-out;
+    outline: none;
+}
+section, input {
+    width: 30vw;
+    margin-bottom: 16px;
+}
+::placeholder {
+    color: black;
+    font-style: italic;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:hover {
+    color: white;
+    border: 2px solid red;
+    transition: all 125ms ease-in-out;
+}
+input:focus {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    transition: all 125ms ease-in-out;
+}
+input:hover::placeholder {
+    color: red;
+    transition: all 125ms ease-in-out;
+}
+input:focus::placeholder {
+    color: white;
+}
